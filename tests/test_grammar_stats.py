@@ -60,7 +60,7 @@ def test_empty_ext_throws_error():
 Given 3 lines of text
 returns percentage of correct text
 """
-def test_percntage_good_returns_percentage():
+def test_percentage_good_returns_percentage():
     gramamar_stats = GrammarStats()
     
     gramamar_stats.check("this is a sentence")
